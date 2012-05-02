@@ -31,7 +31,7 @@ class Tile(Layout):
     def up(self):
         if self.shift_windows:
             self.shift_up()
-        else:                
+        else:
             self.shuffle(utils.shuffleUp)
 
     def down(self):
